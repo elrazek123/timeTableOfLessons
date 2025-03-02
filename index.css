@@ -1,0 +1,105 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    background-color: #0c0809;
+}
+nav
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+nav
+{
+    background-color: #0c0809;
+    color: white;
+    padding: 20px 0px;
+}
+span
+{
+color: #e51b23;
+}
+img
+{
+    border: 3px solid white;
+}
+header
+{
+   display: flex;
+   flex-flow: column wrap;
+   justify-content: space-around;
+   align-items: center;
+   align-content: center;
+   margin-top: 10px;
+}
+header .choose-Option
+{
+    color:white;
+}
+.select-box
+{
+width: 100%;
+margin: 17px 0px;
+}
+select
+{
+    width: 60%;
+    text-align: center;
+}
+section
+{
+    padding: 10px 12px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:space-around;
+    align-items: center;
+    align-content: center;
+}
+section h2
+{
+    color: white;
+}
+article
+{
+    color:white ;
+}
+.index-sesion
+{
+    color: #e51b23;
+}
+.content
+{
+    color: white;
+}
+article
+{
+    margin: 10px 0px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.time-group
+{
+    width: 100%;
+    background-color: #0c0809;
+    color: #e51b23;
+    text-align: center;
+    font-weight: bolder;
+    margin: 12px 0px;
+}
+
+footer
+{
+    background-color: #0c0809;
+    color: #e51b23;
+    text-align: center;
+    
+}

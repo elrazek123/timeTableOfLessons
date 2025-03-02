@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mars timeTable</title>
+    <link rel="stylesheet" href="./index.css">
+    <style>
+        .select-box {
+            position: relative;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        select {
+            width: 60%;
+            padding: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background-color: #e51b23;
+            border: 2px solid white;
+            border-radius: 8px;
+            outline: none;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+
+        select:hover {
+            background-color: black;
+            color: #e51b23;
+        }
+
+        select:focus {
+            box-shadow: 0 0 10px white;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>Code <span>Academy 🔥</span></h1>
+        <img src="./assets/images/471323005_1115785560554612_4244084080375498425_n.jpg" alt="" width="70px" height="70px" style="border-radius: 50%;">
+    </nav>
+    <hr>
+    <header>
+    <h2 class="choose-Option">choose branch:</h2>
+    <div class="select-box">
+        <select>
+            <option value="Alexandria branch">Alexandria branch</option>
+            <option value="Tanta Branch">Tanta Branch</option>
+            <option value="Online">Online</option>
+        </select>
+    </div>
+    </header>
+    <hr>
+    <section>
+        <h2 class="empty-element"></h2>
+        <div class="content">
+        </div>
+    </section>
+    <footer>
+        <h2>maked by ENG.Ahmed hesham 🔥❤️❤️</h2>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
