@@ -234,6 +234,7 @@ selectBoxElmement.onchange=(e)=>
     }
     else if(selectBoxElmement.value=="Online")
     {
+        content.innerHTML="there is times for this branch";
     }
     else
     {
